@@ -1,0 +1,860 @@
+[
+{
+  "dataset_name": "chimneys"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 15,
+      "jpg" : 15,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "dobra_tyble"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 11,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "grzyby"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 6,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "highgraphics05_1"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 5,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "highgraphics05_2"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 6,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "iona_beach_sunset"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": false,
+      "motion": true
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 8,
+      "jpg" : 8,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "lampa_solna_bez_swiatla" #salt_lamp_without_light
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 9,
+      "png" : 0,
+      "tiff" : 9
+    }
+},
+{
+  "dataset_name": "lampa_solna_swiatlo_w_obiektyw" #light_in_lens
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 10,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "lampa_solna_ze_swiatlem" #with_light
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 12,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "luxemburg_church_1"
+  "raw": false,
+  "jpg": true,
+  "png": true,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 8,
+      "png" : 2,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "luxemburg_church_2"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 8,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "luxemburg_church_3"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 8,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "mpi_office_1"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 11,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "mpi_office_2"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 11,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "mpi_office_3"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 9,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "mpi_office_4"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 10,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "nancy_cathedral_1"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 8,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "nancy_cathedral_2"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 7,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "nancy_cathedral_3"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 5,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "osoyoos_1"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 14,
+      "jpg" : 14,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "osoyoos_2"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 13,
+      "jpg" : 13,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "saltlamp_directlight"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 10,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "saltlamp_light"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 12,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "saltlamp_nolight"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 9,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "san_jose06_1"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 5,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "san_jose06_2"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 6,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "sardynia06"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 4,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "sardynia06"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 4,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "sb_drzewa" #sb_trees
+  "raw": true,
+  "jpg": false,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": false,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 0,
+      "png" : 0,
+      "tiff" : 6
+    }
+},
+{
+  "dataset_name": "seymour_park"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 17,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "sylwester_w_dobrej_2005"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 8,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "toys"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 18,
+      "png" : 18,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "tyble"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 11,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "ubc_library"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 15,
+      "jpg" : 15,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "ubc_office"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 12,
+      "jpg" : 12,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "ubc_tree"
+  "raw": true,
+  "jpg": true,
+  "png": true,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : true,
+  "response" : true,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 13,
+      "jpg" : 13,
+      "png" : 2,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "usa_sunset"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": true,
+      "saturation": true,
+      "motion": true
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 4,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "white_page_calib"
+  "raw": true,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 14,
+      "jpg" : 14,
+      "png" : 0,
+      "tiff" : 0
+    }
+},
+{
+  "dataset_name": "winter_pine"
+  "raw": false,
+  "jpg": true,
+  "png": false,
+  "metadata": 
+     { 
+      "noisy": false,
+      "saturation": true,
+      "motion": false
+     },
+  ".hdrgen_file" : false,
+  "response" : false,
+  "outputExrFile" : true,
+  "numberOfPictures" : 
+    {
+      ".cr2" : 0,
+      "jpg" : 6,
+      "png" : 0,
+      "tiff" : 0
+    }
+}
+]
