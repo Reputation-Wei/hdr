@@ -1,0 +1,75 @@
+import cv2 as cv
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Loading image into list
+#image_list_name = ["250.JPG", "1000.JPG", "4000.JPG", "15000.JPG"]
+image_list_name = ["/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0061.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0062.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0063.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0064.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0065.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0066.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0067.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0068.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0069.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0070.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0071.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0072.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0073.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0074.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0075.png",
+                   "/Users/yeshwanthshivraj/Desktop/Sem_1/CI/Lab/images/hdr/memorial_church/memorial0076.png"]
+img_list = [cv.imread(fn) for fn in image_list_name]
+#exposure_times = np.array([0.25, 1.0, 4.0, 15.0], dtype=np.float32)
+exposure_times = np.array([(1/0.03125), (1/0.0625), (1/0.125), (1/0.25), (1/0.5), (1/1), (1/2), (1/4), (1/8), (1/16), (1/32), (1/64), (1/128), (1/256), (1/512), (1/1024)], dtype=np.float32)
+merge_debevec = cv.createMergeDebevec()
+hdr_debevec = merge_debevec.process(img_list, times=exposure_times.copy())
+merge_robertson = cv.createMergeRobertson()
+hdr_robertson = merge_robertson.process(img_list, times=exposure_times.copy())
+
+
+# Tonemap HDR image
+tonemap1 = cv.createTonemap(gamma=2.2)
+res_debevec = tonemap1.process(hdr_debevec.copy())
+
+# Exposure fusion using Mertens
+merge_mertens = cv.createMergeMertens()
+res_mertens = merge_mertens.process(img_list)
+
+# Convert datatype to 8-bit and save
+res_debevec_8bit = np.clip(res_debevec*255, 0, 255).astype('uint8')
+#res_robertson_8bit = np.clip(res_robertson*255, 0, 255).astype('uint8')
+res_mertens_8bit = np.clip(res_mertens*255, 0, 255).astype('uint8')
+cv.imwrite("ldr_debevec.jpg", res_debevec_8bit)
+#cv.imwrite("ldr_robertson.jpg", res_robertson_8bit)
+cv.imwrite("fusion_mertens.jpg", res_mertens_8bit)
+
+# import cv2
+# import numpy as np
+
+# # Read images at different exposures and their corresponding exposure times
+# img1 = cv2.imread('250.JPG')  # Replace 'img1.jpg' with your image file name
+# img2 = cv2.imread('1000.JPG')  # Replace 'img2.jpg' with your image file name
+# img3 = cv2.imread('4000.JPG')  # Replace 'img3.jpg' with your image file name
+# img4 = cv2.imread('15000.JPG')
+# exposure_times = np.array([0.25, 1.0, 4.0, 15.0])  # Exposure times for the images
+
+# # Convert images to 32-bit floats
+# img1 = np.float32(img1)
+# img2 = np.float32(img2)
+# img3 = np.float32(img3)
+# img4 = np.float32(img4)
+
+# # Merge images to create an HDR image
+# merge_debevec = cv2.createMergeDebevec()
+# hdr = merge_debevec.process([img1, img2, img3, img4], times=exposure_times)
+
+# # Tonemap HDR image to convert it to a viewable format
+# tonemap = cv2.createTonemapDurand(gamma=2.2)
+# ldr = tonemap.process(hdr)
+
+
+# # Save the HDR and tonemapped LDR images
+# cv2.imwrite('result.hdr', hdr)
+# cv2.imwrite('result_ldr.jpg', np.clip(ldr * 255, 0, 255).astype('uint8'))
